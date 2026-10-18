@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+.pnp
+.pnp.*
+
+# build output
+.next
+out
+build
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets (ห้าม commit)
+.env
+.env.*
+!.env.example
+
+# database ในเครื่อง
+*.db
+*.db-journal
+*.sqlite
+
+# prisma generated client
+/app/generated
+
+# logs / OS / editor
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
